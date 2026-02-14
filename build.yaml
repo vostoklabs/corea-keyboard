@@ -26,11 +26,11 @@ include:
 ## To build with ZMK Studio support, uncomment the following block
 ## by removing the leading '#' from each line.
 
-#  - board: nice_nano_v2
-#    shield: corea
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#    artifact-name: corea_with_studio
+  - board: nice_nano_v2
+    shield: corea
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: corea_with_studio
 
   - board: nice_nano_v2
     shield: settings_reset
