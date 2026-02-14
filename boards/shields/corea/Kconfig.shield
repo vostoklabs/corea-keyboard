@@ -1,0 +1,2 @@
+config SHIELD_COREA
+    def_bool $(shields_list_contains,corea)
